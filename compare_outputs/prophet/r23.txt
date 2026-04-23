@@ -1,0 +1,12 @@
+3280	forward	1	7	1-2-1	
+3280	status	1	1	0	0	0	0
+4600	forward	7	5	1-2-1	
+4600	status	2	2	0	0	0	0
+4770	forward	1	2	1-2-1	delivered
+4770	status	3	3	0	0	1	1
+5770	forward	5	2	1-2-1	delivered,dup
+5770	status	4	4	1	0	2	1
+6450	forward	7	5	1-2-1	
+6450	status	5	5	1	0	2	1
+6530	forward	7	2	1-2-1	delivered,dup
+6530	status	6	6	2	0	3	1

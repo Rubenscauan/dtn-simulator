@@ -1,0 +1,4 @@
+tempo,origem,destino,msg_id,delivered,forward_util
+1200,1,7,1-2-1,0,1
+2670,7,2,1-2-1,1,1
+3035,1,2,1-2-1,0,0

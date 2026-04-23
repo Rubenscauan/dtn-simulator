@@ -1,0 +1,74 @@
+785	forward	1	3	1-2-1	
+785	status	1	1	0	0	0	0
+790	forward	3	1	1-2-1	dup
+790	status	2	2	1	0	0	0
+1540	forward	3	6	1-2-1	
+1540	status	3	3	1	0	0	0
+1680	forward	1	5	1-2-1	
+1680	status	4	4	1	0	0	0
+2025	forward	6	8	1-2-1	
+2025	status	5	5	1	0	0	0
+2270	forward	6	5	1-2-1	dup
+2270	status	6	6	2	0	0	0
+2275	forward	5	6	1-2-1	dup
+2275	status	7	7	3	0	0	0
+3725	forward	8	2	1-2-1	delivered
+3725	status	8	8	3	0	1	1
+3880	forward	5	4	1-2-1	
+3880	status	9	9	3	0	1	1
+3885	forward	4	5	1-2-1	dup
+3885	status	10	10	4	0	1	1
+3940	forward	4	2	1-2-1	delivered,dup
+3940	status	11	11	5	0	2	1
+4105	forward	6	4	1-2-1	
+4105	status	12	12	5	0	2	1
+4495	forward	5	7	1-2-1	
+4495	status	13	13	5	0	2	1
+4745	forward	3	8	1-2-1	
+4745	status	14	14	5	0	2	1
+4945	forward	3	2	1-2-1	delivered,dup
+4945	status	15	15	6	0	3	1
+5300	forward	5	3	1-2-1	
+5300	status	16	16	6	0	3	1
+5460	forward	1	4	1-2-1	dup
+5460	status	17	17	7	0	3	1
+5775	forward	6	2	1-2-1	delivered,dup
+5775	status	18	18	8	0	4	1
+6190	forward	1	5	1-2-1	dup
+6190	status	19	19	9	0	4	1
+6190	forward	5	1	1-2-1	dup
+6190	status	20	20	10	0	4	1
+7335	forward	1	8	1-2-1	dup
+7335	status	21	21	11	0	4	1
+7600	forward	5	1	1-2-1	dup
+7600	status	22	22	12	0	4	1
+7605	forward	1	5	1-2-1	dup
+7605	status	23	23	13	0	4	1
+8665	forward	5	3	1-2-1	dup
+8665	status	24	24	14	0	4	1
+8805	forward	7	1	1-2-1	dup
+8805	status	25	25	15	0	4	1
+8810	forward	1	7	1-2-1	dup
+8810	status	26	26	16	0	4	1
+9105	forward	5	8	1-2-1	dup
+9105	status	27	27	17	0	4	1
+9755	forward	1	3	1-2-1	dup
+9755	status	28	28	18	0	4	1
+9875	forward	1	6	1-2-1	
+9875	status	29	29	18	0	4	1
+11795	forward	5	4	1-2-1	dup
+11795	status	30	30	19	0	4	1
+12175	forward	1	2	1-2-1	delivered,dup
+12175	status	31	31	20	0	5	1
+12555	forward	7	3	1-2-1	dup
+12555	status	32	32	21	0	5	1
+13635	forward	7	5	1-2-1	dup
+13635	status	33	33	22	0	5	1
+13640	forward	5	7	1-2-1	dup
+13640	status	34	34	23	0	5	1
+18780	forward	5	8	1-2-1	dup
+18780	status	35	35	24	0	5	1
+19730	forward	7	2	1-2-1	delivered,dup
+19730	status	36	36	25	0	6	1
+20660	forward	5	2	1-2-1	delivered,dup
+20660	status	37	37	26	0	7	1

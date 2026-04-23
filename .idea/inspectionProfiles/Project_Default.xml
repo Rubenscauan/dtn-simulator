@@ -1,0 +1,80 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="annotated-types" />
+          <option value="anyio" />
+          <option value="argon2-cffi" />
+          <option value="argon2-cffi-bindings" />
+          <option value="attrs" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="connectorx" />
+          <option value="cramjam" />
+          <option value="et-xmlfile" />
+          <option value="execnet" />
+          <option value="faker" />
+          <option value="fastapi" />
+          <option value="fastexcel" />
+          <option value="fastparquet" />
+          <option value="fsspec" />
+          <option value="gloe" />
+          <option value="h11" />
+          <option value="idna" />
+          <option value="iniconfig" />
+          <option value="joblib" />
+          <option value="loguru" />
+          <option value="lxml" />
+          <option value="memory-profiler" />
+          <option value="minio" />
+          <option value="nfelib" />
+          <option value="numpy" />
+          <option value="openpyxl" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="pluggy" />
+          <option value="polars" />
+          <option value="progressbar2" />
+          <option value="psutil" />
+          <option value="psycopg" />
+          <option value="psycopg-binary" />
+          <option value="pyarrow" />
+          <option value="pycparser" />
+          <option value="pycryptodome" />
+          <option value="pydantic" />
+          <option value="pydantic-core" />
+          <option value="pypubsub" />
+          <option value="pytest" />
+          <option value="pytest-asyncio" />
+          <option value="pytest-subtests" />
+          <option value="pytest-xdist" />
+          <option value="python-dateutil" />
+          <option value="python-dotenv" />
+          <option value="python-logstash" />
+          <option value="python-utils" />
+          <option value="pytz" />
+          <option value="pyxlsb" />
+          <option value="requests" />
+          <option value="six" />
+          <option value="sniffio" />
+          <option value="sqlalchemy" />
+          <option value="starlette" />
+          <option value="tqdm" />
+          <option value="typing-extensions" />
+          <option value="typing-inspection" />
+          <option value="tzdata" />
+          <option value="urllib3" />
+          <option value="uvicorn" />
+          <option value="websockets" />
+          <option value="xlsxwriter" />
+          <option value="xsdata" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

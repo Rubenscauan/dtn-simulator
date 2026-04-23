@@ -1,0 +1,6 @@
+380	forward	1	4	1-2-1	
+380	status	1	1	0	0	0	0
+830	forward	1	2	1-2-1	delivered
+830	status	2	2	0	0	1	1
+2580	forward	4	2	1-2-1	delivered,dup
+2580	status	3	3	1	0	2	1

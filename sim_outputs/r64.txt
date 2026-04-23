@@ -1,0 +1,26 @@
+360	forward	1	5	1-2-1	
+360	status	1	1	0	0	0	0
+370	forward	1	5	1-2-1	dup
+370	status	2	2	1	0	0	0
+1360	forward	5	6	1-2-1	
+1360	status	3	3	1	0	0	0
+1715	forward	5	2	1-2-1	delivered
+1715	status	4	4	1	0	1	1
+1980	forward	1	4	1-2-1	
+1980	status	5	5	1	0	1	1
+2640	forward	4	5	1-2-1	
+2640	status	6	6	1	0	1	1
+3260	forward	1	2	1-2-1	delivered,dup
+3260	status	7	7	2	0	2	1
+4160	forward	4	2	1-2-1	delivered,dup
+4160	status	8	8	3	0	3	1
+6320	forward	6	5	1-2-1	dup
+6320	status	9	9	4	0	3	1
+13380	forward	6	1	1-2-1	
+13380	status	10	10	4	0	3	1
+14695	forward	6	5	1-2-1	dup
+14695	status	11	11	5	0	3	1
+15670	forward	6	4	1-2-1	
+15670	status	12	12	5	0	3	1
+15935	forward	6	2	1-2-1	delivered,dup
+15935	status	13	13	6	0	4	1

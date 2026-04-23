@@ -1,0 +1,6 @@
+7320	forward	1	3	1-2-1	
+7320	status	1	1	0	0	0	0
+7645	forward	3	2	1-2-1	delivered
+7645	status	2	2	0	0	1	1
+9060	forward	1	2	1-2-1	delivered,dup
+9060	status	3	3	1	0	2	1

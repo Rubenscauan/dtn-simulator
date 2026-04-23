@@ -1,0 +1,6 @@
+3055	forward	1	5	1-2-1	
+3055	status	1	1	0	0	0	0
+3140	forward	1	2	1-2-1	delivered
+3140	status	2	2	0	0	1	1
+7750	forward	5	2	1-2-1	delivered,dup
+7750	status	3	3	1	0	2	1

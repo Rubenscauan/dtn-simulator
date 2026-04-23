@@ -1,0 +1,6 @@
+1200	forward	1	7	1-2-1	
+1200	status	1	1	0	0	0	0
+2670	forward	7	2	1-2-1	delivered
+2670	status	2	2	0	0	1	1
+3035	forward	1	2	1-2-1	delivered,dup
+3035	status	3	3	1	0	2	1

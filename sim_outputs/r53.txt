@@ -1,0 +1,72 @@
+280	forward	1	3	1-2-1	
+280	status	1	1	0	0	0	0
+445	forward	3	8	1-2-1	
+445	status	2	2	0	0	0	0
+920	forward	3	2	1-2-1	delivered
+920	status	3	3	0	0	1	1
+1535	forward	1	3	1-2-1	
+1535	status	4	4	0	0	1	1
+3625	forward	8	2	1-2-1	delivered,dup
+3625	status	5	5	1	0	2	1
+3850	forward	1	7	1-2-1	
+3850	status	6	6	1	0	2	1
+4125	forward	1	2	1-2-1	delivered,dup
+4125	status	7	7	2	0	3	1
+8400	forward	7	4	1-2-1	
+8400	status	8	8	2	0	3	1
+9160	forward	4	3	1-2-1	dup
+9160	status	9	9	3	0	3	1
+9435	forward	4	7	1-2-1	dup
+9435	status	10	10	4	0	3	1
+9435	forward	7	4	1-2-1	dup
+9435	status	11	11	5	0	3	1
+9825	forward	7	6	1-2-1	
+9825	status	12	12	5	0	3	1
+9830	forward	6	7	1-2-1	dup
+9830	status	13	13	6	0	3	1
+9840	forward	4	3	1-2-1	dup
+9840	status	14	14	7	0	3	1
+10135	forward	4	8	1-2-1	
+10135	status	15	15	7	0	3	1
+10205	forward	4	5	1-2-1	
+10205	status	16	16	7	0	3	1
+10405	forward	7	4	1-2-1	dup
+10405	status	17	17	8	0	3	1
+10415	forward	4	7	1-2-1	dup
+10415	status	18	18	9	0	3	1
+11410	forward	6	1	1-2-1	
+11410	status	19	19	9	0	3	1
+11495	forward	4	6	1-2-1	dup
+11495	status	20	20	10	0	3	1
+11495	forward	6	4	1-2-1	dup
+11495	status	21	21	11	0	3	1
+11710	forward	5	3	1-2-1	dup
+11710	status	22	22	12	0	3	1
+11860	forward	7	1	1-2-1	dup
+11860	status	23	23	13	0	3	1
+12230	forward	4	1	1-2-1	dup
+12230	status	24	24	14	0	3	1
+12600	forward	4	1	1-2-1	dup
+12600	status	25	25	15	0	3	1
+12760	forward	6	8	1-2-1	dup
+12760	status	26	26	16	0	3	1
+12925	forward	5	2	1-2-1	delivered,dup
+12925	status	27	27	17	0	4	1
+13345	forward	4	8	1-2-1	dup
+13345	status	28	28	18	0	4	1
+14265	forward	6	3	1-2-1	dup
+14265	status	29	29	19	0	4	1
+14615	forward	4	7	1-2-1	dup
+14615	status	30	30	20	0	4	1
+14615	forward	7	4	1-2-1	dup
+14615	status	31	31	21	0	4	1
+15805	forward	7	2	1-2-1	delivered,dup
+15805	status	32	32	22	0	5	1
+16360	forward	6	3	1-2-1	dup
+16360	status	33	33	23	0	5	1
+16740	forward	4	2	1-2-1	delivered,dup
+16740	status	34	34	24	0	6	1
+17045	forward	6	1	1-2-1	dup
+17045	status	35	35	25	0	6	1
+17660	forward	6	2	1-2-1	delivered,dup
+17660	status	36	36	26	0	7	1

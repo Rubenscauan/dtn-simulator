@@ -1,0 +1,16 @@
+1730	forward	1	7	1-2-1	
+1730	status	1	1	0	0	0	0
+1770	forward	1	7	1-2-1	dup
+1770	status	2	2	1	0	0	0
+2165	forward	7	1	1-2-1	dup
+2165	status	3	3	2	0	0	0
+2170	forward	1	7	1-2-1	dup
+2170	status	4	4	3	0	0	0
+4415	forward	7	2	1-2-1	delivered
+4415	status	5	5	3	0	1	1
+6915	forward	1	6	1-2-1	
+6915	status	6	6	3	0	1	1
+9025	forward	1	2	1-2-1	delivered,dup
+9025	status	7	7	4	0	2	1
+9980	forward	6	2	1-2-1	delivered,dup
+9980	status	8	8	5	0	3	1

@@ -1,0 +1,2 @@
+2525	forward	1	2	1-2-1	delivered
+2525	status	1	1	0	0	1	1

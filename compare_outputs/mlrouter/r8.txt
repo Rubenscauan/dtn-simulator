@@ -1,0 +1,24 @@
+2190	forward	1	8	1-2-1	
+2190	status	1	1	0	0	0	0
+2190	ml_forward	1	8	1-2-1
+2385	forward	1	5	1-2-1	
+2385	status	2	2	0	0	0	0
+2385	ml_forward	1	5	1-2-1
+2740	forward	5	2	1-2-1	delivered
+2740	status	3	3	0	0	1	1
+2740	ml_forward	5	2	1-2-1
+2870	forward	8	6	1-2-1	
+2870	status	4	4	0	0	1	1
+2870	ml_forward	8	6	1-2-1
+3330	forward	8	4	1-2-1	
+3330	status	5	5	0	0	1	1
+3330	ml_forward	8	4	1-2-1
+6725	forward	8	7	1-2-1	
+6725	status	6	6	0	0	1	1
+6725	ml_forward	8	7	1-2-1
+7305	forward	8	5	1-2-1	
+7305	status	7	7	0	0	1	1
+7305	ml_forward	8	5	1-2-1
+9950	forward	7	3	1-2-1	
+9950	status	8	8	0	0	1	1
+9950	ml_forward	7	3	1-2-1

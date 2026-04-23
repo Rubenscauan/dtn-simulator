@@ -1,0 +1,8 @@
+6900	forward	1	7	1-2-1	
+6900	status	1	1	0	0	0	0
+8765	forward	1	2	1-2-1	delivered
+8765	status	2	2	0	0	1	1
+9955	forward	7	1	1-2-1	
+9955	status	3	3	0	0	1	1
+12730	forward	7	2	1-2-1	delivered,dup
+12730	status	4	4	1	0	2	1

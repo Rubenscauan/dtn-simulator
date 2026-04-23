@@ -1,0 +1,10 @@
+1025	forward	1	4	1-2-1	
+1025	status	1	1	0	0	0	0
+1105	forward	1	2	1-2-1	delivered
+1105	status	2	2	0	0	1	1
+2680	forward	4	7	1-2-1	
+2680	status	3	3	0	0	1	1
+4150	forward	7	2	1-2-1	delivered,dup
+4150	status	4	4	1	0	2	1
+6730	forward	4	2	1-2-1	delivered,dup
+6730	status	5	5	2	0	3	1

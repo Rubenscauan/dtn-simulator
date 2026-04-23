@@ -1,0 +1,6 @@
+2385	forward	1	5	1-2-1	
+2385	status	1	1	0	0	0	0
+2740	forward	5	2	1-2-1	delivered
+2740	status	2	2	0	0	1	1
+5850	forward	1	2	1-2-1	delivered,dup
+5850	status	3	3	1	0	2	1

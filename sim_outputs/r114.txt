@@ -1,0 +1,154 @@
+900	forward	1	7	1-2-1	
+900	status	1	1	0	0	0	0
+1490	forward	1	5	1-2-1	
+1490	status	2	2	0	0	0	0
+1495	forward	1	8	1-2-1	
+1495	status	3	3	0	0	0	0
+1510	forward	8	5	1-2-1	dup
+1510	status	4	4	1	0	0	0
+2350	forward	7	3	1-2-1	
+2350	status	5	5	1	0	0	0
+2745	forward	3	7	1-2-1	dup
+2745	status	6	6	2	0	0	0
+2745	forward	7	3	1-2-1	dup
+2745	status	7	7	3	0	0	0
+3400	forward	5	4	1-2-1	
+3400	status	8	8	3	0	0	0
+3405	forward	4	5	1-2-1	dup
+3405	status	9	9	4	0	0	0
+4160	forward	3	7	1-2-1	dup
+4160	status	10	10	5	0	0	0
+4160	forward	7	3	1-2-1	dup
+4160	status	11	11	6	0	0	0
+4485	forward	7	8	1-2-1	dup
+4485	status	12	12	7	0	0	0
+4485	forward	8	7	1-2-1	dup
+4485	status	13	13	8	0	0	0
+5655	forward	7	4	1-2-1	dup
+5655	status	14	14	9	0	0	0
+5660	forward	4	7	1-2-1	dup
+5660	status	15	15	10	0	0	0
+6090	forward	7	2	1-2-1	delivered
+6090	status	16	16	10	0	1	1
+6385	forward	3	6	1-2-1	
+6385	status	17	17	10	0	1	1
+6470	forward	1	7	1-2-1	
+6470	status	18	18	10	0	1	1
+6670	forward	5	6	1-2-1	dup
+6670	status	19	19	11	0	1	1
+6670	forward	6	5	1-2-1	dup
+6670	status	20	20	12	0	1	1
+6870	forward	4	2	1-2-1	delivered,dup
+6870	status	21	21	13	0	2	1
+7045	forward	1	5	1-2-1	dup
+7045	status	22	22	14	0	2	1
+7045	forward	5	1	1-2-1	dup
+7045	status	23	23	15	0	2	1
+7210	forward	6	3	1-2-1	dup
+7210	status	24	24	16	0	2	1
+7215	forward	3	6	1-2-1	dup
+7215	status	25	25	17	0	2	1
+7395	forward	3	2	1-2-1	delivered,dup
+7395	status	26	26	18	0	3	1
+7780	forward	1	7	1-2-1	dup
+7780	status	27	27	19	0	3	1
+9105	forward	6	7	1-2-1	dup
+9105	status	28	28	20	0	3	1
+9270	forward	8	5	1-2-1	dup
+9270	status	29	29	21	0	3	1
+9275	forward	5	8	1-2-1	dup
+9275	status	30	30	22	0	3	1
+9575	forward	6	7	1-2-1	dup
+9575	status	31	31	23	0	3	1
+10270	forward	8	1	1-2-1	dup
+10270	status	32	32	24	0	3	1
+10275	forward	1	8	1-2-1	dup
+10275	status	33	33	25	0	3	1
+10565	forward	5	6	1-2-1	dup
+10565	status	34	34	26	0	3	1
+10565	forward	6	5	1-2-1	dup
+10565	status	35	35	27	0	3	1
+11545	forward	8	7	1-2-1	dup
+11545	status	36	36	28	0	3	1
+12210	forward	5	3	1-2-1	
+12210	status	37	37	28	0	3	1
+12290	forward	5	8	1-2-1	dup
+12290	status	38	38	29	0	3	1
+12290	forward	8	5	1-2-1	dup
+12290	status	39	39	30	0	3	1
+12345	forward	5	8	1-2-1	dup
+12345	status	40	40	31	0	3	1
+12390	forward	5	8	1-2-1	dup
+12390	status	41	41	32	0	3	1
+12400	forward	5	8	1-2-1	dup
+12400	status	42	42	33	0	3	1
+12420	forward	5	8	1-2-1	dup
+12420	status	43	43	34	0	3	1
+12600	forward	6	2	1-2-1	delivered,dup
+12600	status	44	44	35	0	4	1
+13290	forward	5	6	1-2-1	
+13290	status	45	45	35	0	4	1
+13910	forward	1	3	1-2-1	dup
+13910	status	46	46	36	0	4	1
+13935	forward	8	5	1-2-1	dup
+13935	status	47	47	37	0	4	1
+13940	forward	5	8	1-2-1	dup
+13940	status	48	48	38	0	4	1
+14835	forward	5	4	1-2-1	
+14835	status	49	49	38	0	4	1
+15235	forward	1	3	1-2-1	dup
+15235	status	50	50	39	0	4	1
+15470	forward	1	4	1-2-1	dup
+15470	status	51	51	40	0	4	1
+16635	forward	1	3	1-2-1	dup
+16635	status	52	52	41	0	4	1
+16805	forward	1	4	1-2-1	dup
+16805	status	53	53	42	0	4	1
+17045	forward	5	2	1-2-1	delivered,dup
+17045	status	54	54	43	0	5	1
+17910	forward	1	4	1-2-1	dup
+17910	status	55	55	44	0	5	1
+18580	forward	8	5	1-2-1	
+18580	status	56	56	44	0	5	1
+18795	forward	1	4	1-2-1	dup
+18795	status	57	57	45	0	5	1
+18910	forward	8	3	1-2-1	dup
+18910	status	58	58	46	0	5	1
+20090	forward	1	7	1-2-1	dup
+20090	status	59	59	47	0	5	1
+20265	forward	8	7	1-2-1	dup
+20265	status	60	60	48	0	5	1
+20985	forward	1	8	1-2-1	dup
+20985	status	61	61	49	0	5	1
+20985	forward	8	1	1-2-1	dup
+20985	status	62	62	50	0	5	1
+21620	forward	1	5	1-2-1	dup
+21620	status	63	63	51	0	5	1
+21665	forward	8	5	1-2-1	dup
+21665	status	64	64	52	0	5	1
+21700	forward	8	1	1-2-1	dup
+21700	status	65	65	53	0	5	1
+21740	forward	8	1	1-2-1	dup
+21740	status	66	66	54	0	5	1
+21835	forward	1	7	1-2-1	dup
+21835	status	67	67	55	0	5	1
+22290	forward	8	1	1-2-1	dup
+22290	status	68	68	56	0	5	1
+22295	forward	1	8	1-2-1	dup
+22295	status	69	69	57	0	5	1
+22480	forward	8	7	1-2-1	dup
+22480	status	70	70	58	0	5	1
+22625	forward	1	2	1-2-1	delivered,dup
+22625	status	71	71	59	0	6	1
+26920	forward	8	4	1-2-1	dup
+26920	status	72	72	60	0	6	1
+27995	forward	8	3	1-2-1	dup
+27995	status	73	73	61	0	6	1
+28840	forward	8	1	1-2-1	
+28840	status	74	74	61	0	6	1
+30775	forward	8	1	1-2-1	dup
+30775	status	75	75	62	0	6	1
+32325	forward	8	6	1-2-1	dup
+32325	status	76	76	63	0	6	1
+39235	forward	8	2	1-2-1	delivered,dup
+39235	status	77	77	64	0	7	1
