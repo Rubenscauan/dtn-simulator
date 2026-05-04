@@ -32,6 +32,11 @@ import dtnsim.path
 from perlcompat import die, getopts
 from ml_router import MLRouter
 
+try:
+    from ml_router_v2 import MLRouterV2
+except ImportError:
+    MLRouterV2 = None
+
 MAX_VELOCITY = 4000 / 60 / 60  # maximum node velocity [m/s]
 MIN_VELOCITY = MAX_VELOCITY / 2  # minimum node velocity [m/s]
 MIN_PAUSE = 0  # minimum pause time [s]
@@ -40,12 +45,13 @@ MAX_PAUSE = 5 * 60  # maximum pause time [s]
 def usage():
     prog = os.path.basename(sys.argv[0])
     die("""\
-usage: {} [-v] [-s #] [-n #] [-r range] [-I id[,id]...] [-m mobility] [-p path] [-a agent] [-M monitor]
+usage: {} [-v] [-s #] [-n #] [-r range] [-I id[,id]...] [-N #] [-m mobility] [-p path] [-a agent] [-M monitor]
   -v            verbose mode
   -s #          seed of random number generator
   -n #          number of agents
   -r range      communication range [m]
   -I id[,id...] initial infected nodes
+  -N #          number of messages to inject (default: 1)
   -m mobility   name of mobility class (Fixed/FullMixed/LevyWalk/LimitedRandomWaypoint/RandomWalk/RandomWaypoint/graph.Fixed/graph.Sequential/graph.RandomWalk/graph.CRWP)
   -p path       name of path class (NONE/Line/Grid/Voronoi)
   -a agent      name of agent class (CarryOnly/Random/Epidemic/P_BCAST/SA_BCAST/HP_BCAST/ProPHET)
@@ -53,10 +59,11 @@ usage: {} [-v] [-s #] [-n #] [-r range] [-I id[,id]...] [-m mobility] [-p path] 
 """.format(prog))
 
 def create_agents(sched, monitor, agent_class, nagents, range_, init_infected,
-                  mobility_class, path):
+                  mobility_class, path, num_messages=1):
     """Create the number NAGENTS of agents of the class AGENT_CLASS, whose
     mobility models are initialized as MOBILITY_CLASS class.  INIT_INFECTED is
-    a list of identifiers (starting from 1) of initially-infected agents."""
+    a list of identifiers (starting from 1) of initially-infected agents.
+    NUM_MESSAGES controls how many messages are injected into the network."""
     def vel_func():
         """A callback function for returning the velocity of an agent."""
         return random.uniform(MIN_VELOCITY, MAX_VELOCITY)
@@ -70,6 +77,12 @@ def create_agents(sched, monitor, agent_class, nagents, range_, init_infected,
         mobility = cls(vel_func=vel_func, pause_func=pause_func, path=path)
         if agent_class == "MLRouter":
             cls = MLRouter
+        elif agent_class == "MLRouterV2":
+            if MLRouterV2 is None:
+                raise ImportError(
+                    "MLRouterV2 não encontrado. Adicione pipeline_v2_contacts/ ao PYTHONPATH."
+                )
+            cls = MLRouterV2
         else:
             cls = eval('dtnsim.agent.' + agent_class)
 
@@ -80,13 +93,27 @@ def create_agents(sched, monitor, agent_class, nagents, range_, init_infected,
             range_=range_
         )
 
-    for i in init_infected:
-        # store a message (the first message sent from agent 1 destined for agent 2)
-        sched.agent_by_id(i).received['1-2-1'] = 1
+    if num_messages == 1:
+        for i in init_infected:
+            sched.agent_by_id(i).received['1-2-1'] = 1
+    else:
+        node_ids = list(range(1, nagents + 1))
+        injected = 0
+        seq = 1
+        used_pairs = set()
+        while injected < num_messages:
+            src = random.choice(node_ids)
+            dst = random.choice(node_ids)
+            if src == dst or (src, dst) in used_pairs:
+                continue
+            used_pairs.add((src, dst))
+            msg_id = f"{src}-{dst}-{seq}"
+            sched.agent_by_id(src).received[msg_id] = 1
+            injected += 1
+            seq += 1
 
 def main():
-    # parse command-line arguments
-    opt = getopts('vs:n:r:I:m:p:a:M:') or usage()
+    opt = getopts('vs:n:r:I:N:m:p:a:M:') or usage()
     verbose = opt.v
     seed = opt.s if opt.s else 1
     nagents = int(opt.n) if opt.n else 50
@@ -95,6 +122,7 @@ def main():
         init_infected = [int(s) for s in opt.I.split(',')]
     else:
         init_infected = [1]
+    num_messages = int(opt.N) if opt.N else 1
     mobility_class = opt.m if opt.m else 'graph.CRWP'
     path_class = opt.p if opt.p else 'Voronoi'
     agent_class = opt.a if opt.a else 'P_BCAST'
@@ -114,7 +142,7 @@ def main():
     monitor.display_path(path)
 
     create_agents(sched, monitor, agent_class, nagents, range_, init_infected,
-                  mobility_class, path)
+                  mobility_class, path, num_messages)
     monitor.display_agents()
 
     # the main loop
